@@ -1,0 +1,7 @@
+<?php
+/**
+ *  Implements hook_page_attachments_alter().
+ */
+function browserclass_page_attachments_alter(array &$attachments) {
+    $attachments['#attached']['library'][] = 'browserclass/global-browserclass';
+}

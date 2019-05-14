@@ -1,0 +1,5 @@
+global-browserclass:
+  js:
+    js/browserclass.js: {}
+  dependencies:
+    - core/jquery
