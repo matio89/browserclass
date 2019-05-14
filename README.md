@@ -1,4 +1,4 @@
-# Mathematical Lexer Parser Module
+# Drupal 8 Version of Browser Class Module
 
 This small module helps theme-developers to deal with cross-browser compatibility. It makes easier to handle different types of non-widespread browsers just as much as it helps with using different versions of Internet Explorer.
 ## Installation
