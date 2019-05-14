@@ -1,0 +1,21 @@
+{
+  "name": "drupal/browserclass",
+  "type": "drupal-module",
+  "description": "Add browser class to body element",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/browserclass",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/browserclass",
+    "source": "http://cgit.drupalcode.org/browserclass"
+  },
+  "authors": [
+    {
+      "name": "Mohamed Anis Taktak (matio89)",
+      "homepage": "https://www.drupal.org/u/matio89",
+      "role": "Maintainer"
+    }
+  ],
+  "require": { }
+}

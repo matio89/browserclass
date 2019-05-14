@@ -1,4 +1,24 @@
 <?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function browserclass_help($route_name, RouteMatchInterface $route_match)
+{
+    switch ($route_name) {
+        // Main module help for the mathematical_lexer_parser module.
+        case 'help.page.browserclass':
+            $output = '';
+            $output .= '<h3>' . t('About') . '</h3>';
+            $output .= '<p>' . t('Add browser class to body element') . '</p>';
+            return $output;
+
+        default:
+    }
+}
+
 /**
  *  Implements hook_page_attachments_alter().
  */
